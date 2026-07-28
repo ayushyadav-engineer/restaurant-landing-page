@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanwariya | Premium Restaurant</title>
+
+    <meta name="description"
+        content="Sanwariya is a modern premium restaurant website built using HTML, CSS and JavaScript.">
+
+    <meta name="keywords"
+        content="Restaurant, Food, HTML, CSS, JavaScript">
+
+    <meta name="author"
+        content="Ayush Yadav">
+
+    <!-- Favicon -->
+
+    <link rel="icon"
+        href="assets/images/favicon.png">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!--============================
+            PRELOADER
+    =============================-->
+
+    <div id="preloader">
+
+        <div class="loader">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </div>
+
+    <!--============================
+            SCROLL PROGRESS BAR
+    =============================-->
+
+    <div id="progress-bar"></div>
+
+    <!--============================
+            HEADER
+    =============================-->
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a href="#home"
+                    class="logo">
+
+                    <img src="assets/images/logo.png"
+                        alt="Logo">
+
+                    <h2>Sanwariya</h2>
+
+                </a>
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="#home"
+                            class="active">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#menu">
+                            Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#chef">
+                            Chefs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="nav-right">
+
+                    <button id="theme-toggle">
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+                    <a href="#reservation"
+                        class="btn">
+
+                        Book Table
+
+                    </a>
+
+                </div>
+
+                <div class="hamburger">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!--============================
+            HERO SECTION
+    =============================-->
+
+    <section class="hero"
+        id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+
+            <!-- Left -->
+
+            <div class="hero-content">
+
+                <br><br><br>
+                
+                <h1>
+
+                    Taste The <span>Finest Food</span><br>
+
+                    Crafted With Passion
+
+                </h1>
+
+                <p>
+
+                    Experience unforgettable dining with gourmet dishes,
+                    premium ingredients, and world-class hospitality.
+                    Every meal at Sanwariya is a celebration of flavor,
+                    elegance, and unforgettable memories.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu"
+                        class="btn">
+
+                        Explore Menu
+
+                    </a>
+
+                    <a href="#reservation"
+                        class="btn-outline">
+
+                        Reserve Table
+
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+
+                        <h2>15+</h2>
+
+                        <span>Years Experience</span>
+
+                    </div>
+
+                    <div>
+
+                        <h2>120+</h2>
+
+                        <span>Premium Dishes</span>
+
+                    </div>
+
+                    <div>
+
+                        <h2>25K+</h2>
+
+                        <span>Happy Customers</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="hero-image">
+
+                <img src="assets/images/hero.jpg"
+                    alt="Restaurant Hero">
+
+                <div class="floating-card card-one">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    <div>
+
+                        <h4>4.9 Rating</h4>
+
+                        <p>2,000+ Reviews</p>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-two">
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                    <div>
+
+                        <h4>Fresh Food</h4>
+
+                        <p>Daily Prepared</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll Down -->
+
+        <a href="#about"
+            class="scroll-down">
+
+            <i class="fa-solid fa-angles-down"></i>
+
+        </a>
+
+    </section>
+
+    <!--============================
+            ABOUT SECTION
+    =============================-->
+
+    <section class="about section" id="about">
+
+        <div class="container about-container">
+
+            <!-- Left -->
+
+            <div class="about-image">
+
+                <img src="assets/images/about.jpg"
+                    alt="About Restaurant">
+
+                <div class="experience-card">
+
+                    <h2>15+</h2>
+
+                    <p>Years of Excellence</p>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="about-content">
+
+                <span class="section-subtitle">
+
+                    About Sanwariya
+
+                </span>
+
+                <h2>
+
+                    We Create Delicious Memories
+                    With Every Meal
+
+                </h2>
+
+                <p>
+
+                    Sanwariya is more than just a restaurant.
+                    We combine premium ingredients, skilled chefs,
+                    elegant ambience, and exceptional service
+                    to create unforgettable dining experiences.
+
+                </p>
+
+                <p>
+
+                    Every dish is freshly prepared using
+                    locally sourced ingredients and inspired by
+                    cuisines from around the world.
+
+                </p>
+
+                <div class="about-features">
+
+                    <div class="feature-box">
+
+                        <i class="fa-solid fa-leaf"></i>
+
+                        <div>
+
+                            <h4>Fresh Ingredients</h4>
+
+                            <p>
+                                Farm fresh vegetables and premium meat.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-box">
+
+                        <i class="fa-solid fa-utensils"></i>
+
+                        <div>
+
+                            <h4>Premium Recipes</h4>
+
+                            <p>
+                                Prepared by award-winning chefs.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature-box">
+
+                        <i class="fa-solid fa-award"></i>
+
+                        <div>
+
+                            <h4>Best Quality</h4>
+
+                            <p>
+                                Five-star quality food & service.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a href="#reservation"
+                    class="btn">
+
+                    Book Your Table
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            STATISTICS
+    =============================-->
+
+    <section class="statistics">
+
+        <div class="container">
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-face-smile"></i>
+
+                    <h2 class="counter"
+                        data-target="25000">
+
+                        0
+
+                    </h2>
+
+                    <p>
+
+                        Happy Customers
+
+                    </p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                    <h2 class="counter"
+                        data-target="120">
+
+                        0
+
+                    </h2>
+
+                    <p>
+
+                        Premium Dishes
+
+                    </p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-cheese"></i>
+
+                    <h2 class="counter"
+                        data-target="35">
+
+                        0
+
+                    </h2>
+
+                    <p>
+
+                        Professional Chefs
+
+                    </p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-award"></i>
+
+                    <h2 class="counter"
+                        data-target="18">
+
+                        0
+
+                    </h2>
+
+                    <p>
+
+                        Food Awards
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            WHY CHOOSE US
+    =============================-->
+
+    <section class="why section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>
+
+                    Why Choose Us
+
+                </span>
+
+                <h2>
+
+                    We Offer The Best
+                    Dining Experience
+
+                </h2>
+
+                <p>
+
+                    From fresh ingredients to luxury ambience,
+                    everything is designed to make your visit
+                    unforgettable.
+
+                </p>
+
+            </div>
+
+            <div class="why-grid">
+
+                <!-- Card 1 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-seedling"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Fresh Ingredients
+
+                    </h3>
+
+                    <p>
+
+                        Carefully selected organic vegetables,
+                        seafood and premium quality meat.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-utensils"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Expert Chefs
+
+                    </h3>
+
+                    <p>
+
+                        International chefs preparing
+                        authentic and creative dishes.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-bowl-food"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Diverse Menu
+
+                    </h3>
+
+                    <p>
+
+                        Italian, Indian, Chinese,
+                        Continental and much more.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-mug-hot"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Premium Coffee
+
+                    </h3>
+
+                    <p>
+
+                        Freshly brewed coffee and handcrafted
+                        beverages every day.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 5 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-champagne-glasses"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Luxury Ambience
+
+                    </h3>
+
+                    <p>
+
+                        Elegant interiors perfect for
+                        family dinners and celebrations.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 6 -->
+
+                <div class="why-card">
+
+                    <div class="icon">
+
+                        <i class="fa-solid fa-truck-fast"></i>
+
+                    </div>
+
+                    <h3>
+
+                        Fast Delivery
+
+                    </h3>
+
+                    <p>
+
+                        Fresh food delivered quickly
+                        while maintaining quality.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            FEATURED DISHES
+    =============================-->
+
+    <section class="featured section" id="menu">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Chef's Selection</span>
+
+                <h2>Featured Dishes</h2>
+
+                <p>
+                    Discover our most loved signature dishes, prepared with
+                    premium ingredients and exceptional culinary craftsmanship.
+                </p>
+
+            </div>
+
+            <div class="featured-grid">
+
+                <!-- Featured Card 1 -->
+
+                <div class="featured-card">
+
+                    <div class="badge">
+                        Best Seller
+                    </div>
+
+                    <img src="assets/images/menu1.jpg"
+                        alt="Margherita Pizza">
+
+                    <div class="featured-content">
+
+                        <div class="rating">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+
+                            <span>4.9</span>
+
+                        </div>
+
+                        <h3>Italian Pizza</h3>
+
+                        <p>
+                            Fresh mozzarella, basil,
+                            cherry tomatoes and olive oil.
+                        </p>
+
+                        <div class="price-cart">
+
+                            <h4>₹729</h4>
+
+                            <button class="btn-small">
+
+                                Order Now
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Featured Card 2 -->
+
+                <div class="featured-card">
+
+                    <div class="badge chef">
+
+                        Chef Special
+
+                    </div>
+
+                    <img src="assets/images/menu2.jpg"
+                        alt="Classic Burger">
+
+                    <div class="featured-content">
+
+                        <div class="rating">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <span>5.0</span>
+
+                        </div>
+
+                        <h3>Classic Burger</h3>
+
+                        <p>
+
+                            Premium beef, cheddar cheese,
+                            crispy lettuce and secret sauce.
+
+                        </p>
+
+                        <div class="price-cart">
+
+                            <h4>₹562</h4>
+
+                            <button class="btn-small">
+
+                                Order Now
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            FULL MENU
+    =============================-->
+
+    <section class="menu section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Our Menu</span>
+
+                <h2>Popular Food Items</h2>
+
+                <p>
+
+                    Enjoy our wide range of handcrafted dishes.
+
+                </p>
+
+            </div>
+
+            <div class="menu-grid">
+
+                <!-- Card 1 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu1.jpg"
+                        alt="Pizza">
+
+                    <div class="menu-info">
+
+                        <h3>Italian Pizza</h3>
+
+                        <p>
+                            Wood fired pizza with mozzarella,
+                            basil and tomatoes.
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹729</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu2.jpg"
+                        alt="Burger">
+
+                    <div class="menu-info">
+
+                        <h3>Classic Burger</h3>
+
+                        <p>
+
+                            Juicy grilled beef burger with
+                            cheddar cheese.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹562</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu3.jpg"
+                        alt="Pasta">
+
+                    <div class="menu-info">
+
+                        <h3>Creamy Pasta</h3>
+
+                        <p>
+
+                            Rich Alfredo sauce,
+                            parmesan cheese and herbs.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹429</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu4.jpg"
+                        alt="Steak">
+
+                    <div class="menu-info">
+
+                        <h3>Grilled Sandwich</h3>
+
+                        <p>
+
+                            Tender grilled sandwich served
+                            with Sauce.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹609</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 5 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu5.jpg"
+                        alt="Salad">
+
+                    <div class="menu-info">
+
+                        <h3>Caesar Salad</h3>
+
+                        <p>
+
+                            Fresh lettuce,
+                            parmesan and garlic dressing.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹329</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 6 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu6.jpg"
+                        alt="Dessert">
+
+                    <div class="menu-info">
+
+                        <h3>Chocolate Lava Cake</h3>
+
+                        <p>
+
+                            Warm chocolate cake with
+                            vanilla ice cream.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹325</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Card 7 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu7.jpg"
+                        alt="Sushi">
+
+                    <div class="menu-info">
+
+                        <h3>Japanese Sushi</h3>
+
+                        <p>
+
+                            Fresh salmon, avocado and premium
+                            sushi rice served with soy sauce.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹999</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 8 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu8.jpg"
+                        alt="Chicken">
+
+                    <div class="menu-info">
+
+                        <h3>Argentine Alfajores</h3>
+
+                        <p>
+
+                            rolled in shredded coconut or 
+                            dusted with powdered sugar
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹1,099</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 9 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu9.jpg"
+                        alt="Seafood">
+
+                    <div class="menu-info">
+
+                        <h3>Indian Samosas</h3>
+
+                        <p>
+
+                            spiced mixture of mashed potatoes, 
+                            peas, and aromatic spices.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹320</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 10 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu10.jpg"
+                        alt="Tacos">
+
+                    <div class="menu-info">
+
+                        <h3>Mexican Tacos</h3>
+
+                        <p>
+
+                            Soft tortillas filled with
+                            seasoned beef, salsa and cheese.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹680</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 11 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu11.jpg"
+                        alt="Biryani">
+
+                    <div class="menu-info">
+
+                        <h3>Royal Biryani</h3>
+
+                        <p>
+
+                            Fragrant basmati rice,
+                            aromatic spices and tender chicken.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹1306</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 12 -->
+
+                <div class="menu-card">
+
+                    <img src="assets/images/menu12.jpg"
+                        alt="Ice Cream">
+
+                    <div class="menu-info">
+
+                        <h3>Signature Dessert</h3>
+
+                        <p>
+
+                            Premium vanilla ice cream,
+                            berries and rich chocolate syrup.
+
+                        </p>
+
+                        <div class="menu-bottom">
+
+                            <span>₹399</span>
+
+                            <button class="btn-small">
+
+                                Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            SPECIAL OFFER
+    =============================-->
+
+    <section class="offer">
+
+        <div class="container">
+
+            <div class="offer-content">
+
+                <div class="offer-text">
+
+                    <span class="offer-tag">
+
+                        Limited Time Offer
+
+                    </span>
+
+                    <h2>
+
+                        Get 20% OFF On Your
+                        First Reservation
+
+                    </h2>
+
+                    <p>
+
+                        Reserve your table today and enjoy
+                        exclusive discounts on selected
+                        premium dishes.
+
+                    </p>
+
+                </div>
+
+                <div class="offer-button">
+
+                    <a href="#reservation"
+                        class="btn">
+
+                        Reserve Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            CHEF TEAM
+    =============================-->
+
+    <section class="chef section" id="chef">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Our Team</span>
+
+                <h2>Meet Our Professional Chefs</h2>
+
+                <p>
+
+                    Passionate culinary experts dedicated to creating
+                    unforgettable dining experiences.
+
+                </p>
+
+            </div>
+
+            <div class="chef-grid">
+
+                <!-- Chef 1 -->
+
+                <div class="chef-card">
+
+                    <div class="chef-image">
+
+                        <img src="assets/images/chef1.jpg"
+                            alt="Chef Daniel">
+
+                        <div class="chef-social">
+
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="chef-info">
+
+                        <h3>Daniel Rajput</h3>
+
+                        <span>Executive Chef</span>
+
+                        <p>
+
+                            18+ years of experience in
+                            Italian and French cuisine.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Chef 2 -->
+
+                <div class="chef-card">
+
+                    <div class="chef-image">
+
+                        <img src="assets/images/chef2.jpg"
+                            alt="Chef Sophia">
+
+                        <div class="chef-social">
+
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="chef-info">
+
+                        <h3>Sophia Yadav</h3>
+
+                        <span>Pastry Chef</span>
+
+                        <p>
+
+                            Award-winning dessert specialist
+                            creating signature sweets.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Chef 3 -->
+
+                <div class="chef-card">
+
+                    <div class="chef-image">
+
+                        <img src="assets/images/chef3.jpg"
+                            alt="Chef Liam">
+
+                        <div class="chef-social">
+
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="chef-info">
+
+                        <h3>Peter Sharma</h3>
+
+                        <span>Head Grill Chef</span>
+
+                        <p>
+
+                            Famous for premium steaks
+                            and seafood specialties.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            GALLERY
+    =============================-->
+
+    <section class="gallery section" id="gallery">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Photo Gallery</span>
+
+                <h2>Discover Our Restaurant</h2>
+
+                <p>
+
+                    Take a look at our delicious dishes,
+                    elegant ambience and memorable moments.
+
+                </p>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery1.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery2.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery3.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery4.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery5.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img src="assets/images/gallery6.jpg"
+                        alt="Gallery Image">
+
+                    <div class="gallery-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            TESTIMONIALS
+    =============================-->
+
+    <section class="testimonials section" id="testimonials">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Testimonials</span>
+
+                <h2>What Our Customers Say</h2>
+
+                <p>
+
+                    Thousands of happy guests enjoy
+                    unforgettable dining experiences at Sanwariya.
+
+                </p>
+
+            </div>
+
+            <div class="testimonial-grid">
+
+                <!-- Testimonial 1 -->
+
+                <div class="testimonial-card">
+
+                    <img src="assets/images/customer1.jpg"
+                        alt="Customer">
+
+                    <div class="stars">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+                    <p>
+
+                        "Absolutely incredible food and
+                        outstanding service. Every visit
+                        feels like a special occasion."
+
+                    </p>
+
+                    <h4>Emily Johnson</h4>
+
+                </div>
+
+                <!-- Testimonial 2 -->
+
+                <div class="testimonial-card">
+
+                    <img src="assets/images/customer2.jpg"
+                        alt="Customer">
+
+                    <div class="stars">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                    </div>
+
+                    <p>
+
+                        "Beautiful ambience,
+                        premium quality dishes
+                        and wonderful hospitality."
+
+                    </p>
+
+                    <h4>Michael Brown</h4>
+
+                </div>
+
+                <!-- Testimonial 3 -->
+
+                <div class="testimonial-card">
+
+                    <img src="assets/images/customer3.jpg"
+                        alt="Customer">
+
+                    <div class="stars">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+                    <p>
+
+                        "One of the finest restaurants
+                        I've ever visited.
+                        Highly recommended."
+
+                    </p>
+
+                    <h4>Sophia Williams</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            RESERVATION
+    =============================-->
+
+    <section class="reservation section"
+        id="reservation">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>Reservation</span>
+
+                <h2>Book Your Table</h2>
+
+            </div>
+
+            <form class="reservation-form">
+
+                <input type="text"
+                    placeholder="Full Name"
+                    required>
+
+                <input type="email"
+                    placeholder="Email"
+                    required>
+
+                <input type="tel"
+                    placeholder="Phone Number"
+                    required>
+
+                <input type="date"
+                    required>
+
+                <input type="time"
+                    required>
+
+                <select>
+
+                    <option>1 Person</option>
+                    <option>2 Persons</option>
+                    <option>4 Persons</option>
+                    <option>6 Persons</option>
+                    <option>8+ Persons</option>
+
+                </select>
+
+                <textarea rows="5"
+                    placeholder="Special Request"></textarea>
+
+                <button class="btn"
+                    type="submit">
+
+                    Reserve Now
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            NEWSLETTER
+    =============================-->
+
+    <section class="newsletter">
+
+        <div class="container newsletter-box">
+
+            <div>
+
+                <h2>
+
+                    Subscribe To Our Newsletter
+
+                </h2>
+
+                <p>
+
+                    Get exclusive offers,
+                    recipes and restaurant updates.
+
+                </p>
+
+            </div>
+
+            <form>
+
+                <input type="email"
+                    placeholder="Enter your email">
+
+                <button class="btn">
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            CONTACT
+    =============================-->
+
+    <section class="contact section"
+        id="contact">
+
+        <div class="container contact-grid">
+
+            <div>
+
+                <h2>
+
+                    Contact Us
+
+                </h2>
+
+                <p>
+
+                    We'd love to hear from you.
+
+                </p>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+
+                        21A, Sector-50,
+                        Faridabad, India
+
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+
+                        +91 987 654 3210
+
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+
+                        hello@sanwariya.com
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14041.092585130564!2d77.26940075249553!3d28.380816862846455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cde993930d0e3%3A0x11a673b6518f98a3!2sSector%2050%2C%20Faridabad%2C%20Haryana%20121001!5e0!3m2!1sen!2sin!4v1782628417953!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--============================
+            FOOTER
+    =============================-->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>Sanwariya</h3>
+
+                <p>
+
+                    Premium dining with unforgettable
+                    flavours and elegant hospitality.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Opening Hours</h3>
+
+                <p>
+
+                    Monday - Friday<br>
+                    10:00 AM - 10:00 PM
+
+                </p>
+
+                <p>
+
+                    Saturday - Sunday<br>
+                    09:00 AM - 11:00 PM
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Follow Us</h3>
+
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+
+                © 2026 Sanwariya Restaurant.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!--============================
+            BACK TO TOP
+    =============================-->
+
+    <button id="backToTop">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!--============================
+            JAVASCRIPT
+    =============================-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
