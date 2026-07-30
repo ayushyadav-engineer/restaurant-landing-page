@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The story of Le Château Royale — a Michelin-star dining legacy since 1995." />
+    <title>About · Le Château Royale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body data-page="about">
+    <div id="page-loader" class="page-loader"><div class="loader-mark"><span class="loader-ring"></span><span class="loader-text">Le Château Royale</span></div></div>
+    <div id="scroll-progress" class="scroll-progress"></div>
+    <div id="mouse-glow" class="mouse-glow" aria-hidden="true"></div>
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+    <header id="navbar" class="navbar">
+      <nav class="nav container" aria-label="Primary">
+        <a href="/index.html" class="nav-logo" aria-label="Le Château Royale home"><span class="logo-mark">L<span class="logo-dot">·</span>C</span><span class="logo-name">Le Château Royale</span></a>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+        <ul id="nav-menu" class="nav-menu" data-nav>
+          <li><a href="/index.html" class="nav-link" data-page="home">Home</a></li>
+          <li><a href="/about.html" class="nav-link" data-page="about">About</a></li>
+          <li><a href="/menu.html" class="nav-link" data-page="menu">Menu</a></li>
+          <li><a href="/gallery.html" class="nav-link" data-page="gallery">Gallery</a></li>
+          <li><a href="/index.html#experience" class="nav-link" data-page="experience">Experience</a></li>
+          <li><a href="/reservation.html" class="nav-link" data-page="reservation">Reservation</a></li>
+          <li><a href="/contact.html" class="nav-link" data-page="contact">Contact</a></li>
+          <li class="nav-cta-item"><a href="/reservation.html" class="btn btn-gold btn-ripple">Reserve Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="page-hero-bg" style="background-image:url('https://images.pexels.com/photos/20184685/pexels-photo-20184685.jpeg?auto=compress&cs=tinysrgb&w=1400')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content container">
+          <p>Est. 1995</p>
+          <h1>Our Story</h1>
+          <nav class="breadcrumb"><a href="/index.html">Home</a> <span>/</span> <span>About</span></nav>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container story-grid">
+          <div class="story-img reveal fade-left"><img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Candlelit dining room at Le Château Royale" loading="lazy" /></div>
+          <div class="reveal fade-right">
+            <p class="eyebrow">Since 1995</p>
+            <h2 class="section-title">A House Built on Passion</h2>
+            <p class="lead">Le Château Royale began as a single room with twelve seats and an uncompromising belief: that a meal could be a memory that lasts a lifetime.</p>
+            <p class="muted">Three decades later, that room has grown into one of Europe's most celebrated dining destinations — yet the belief has never changed. Every morning, our chefs walk the markets before sunrise. Every evening, our team welcomes guests as if they were the only ones in the world.</p>
+            <p class="muted">We have earned three Michelin stars, but our proudest measure remains the same: the guests who return, year after year, to celebrate the moments that matter most.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal fade-up"><p class="eyebrow">What We Stand For</p><h2 class="section-title">Our Values</h2></div>
+          <div class="values-grid">
+            <article class="value-card glass reveal fade-up"><span class="ic">◈</span><h3>Excellence</h3><p class="muted">We hold ourselves to a standard that never settles — every detail, every night.</p></article>
+            <article class="value-card glass reveal fade-up" style="--d:.08s"><span class="ic">❋</span><h3>Provenance</h3><p class="muted">We know every farmer, fisher and grower behind each ingredient on the plate.</p></article>
+            <article class="value-card glass reveal fade-up" style="--d:.16s"><span class="ic">♛</span><h3>Craft</h3><p class="muted">Decades of technique, refined daily, in service of flavour and beauty.</p></article>
+            <article class="value-card glass reveal fade-up" style="--d:.24s"><span class="ic">⌂</span><h3>Hospitality</h3><p class="muted">A guest is never a transaction. They are the reason we exist.</p></article>
+            <article class="value-card glass reveal fade-up" style="--d:.32s"><span class="ic">✦</span><h3>Sustainability</h3><p class="muted">We honour the land that feeds us, sourcing seasonally and wasting nothing.</p></article>
+            <article class="value-card glass reveal fade-up" style="--d:.4s"><span class="ic">♪</span><h3>Atmosphere</h3><p class="muted">Light, music and space — composed as carefully as the menu itself.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal fade-up"><p class="eyebrow">Three Decades</p><h2 class="section-title">Our Journey</h2></div>
+          <div class="timeline">
+            <div class="timeline-item reveal fade-up"><div class="timeline-year">1995</div><div><h4>The First Door Opens</h4><p class="muted">A twelve-seat dining room opens on Royale Avenue with a single tasting menu.</p></div></div>
+            <div class="timeline-item reveal fade-up"><div class="timeline-year">2003</div><div><h4>First Michelin Star</h4><p class="muted">Recognition arrives for the kitchen's uncompromising seasonal cuisine.</p></div></div>
+            <div class="timeline-item reveal fade-up"><div class="timeline-year">2011</div><div><h4>Chef Laurent Joins</h4><p class="muted">Antoine Laurent becomes Executive Chef, bringing a new chapter of artistry.</p></div></div>
+            <div class="timeline-item reveal fade-up"><div class="timeline-year">2017</div><div><h4>Three Stars Awarded</h4><p class="muted">Le Château Royale earns the highest honour in the culinary world.</p></div></div>
+            <div class="timeline-item reveal fade-up"><div class="timeline-year">Today</div><div><h4>A Living Legacy</h4><p class="muted">Nearly a hundred thousand guests served — and every evening still begins at sunrise.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reserve-cta">
+        <div class="container reserve-cta-inner reveal scale">
+          <p class="eyebrow">Reservations</p>
+          <h2 class="section-title light">Join Our Story</h2>
+          <p class="section-sub light">Reserve your evening at Le Château Royale.</p>
+          <a href="/reservation.html" class="btn btn-gold btn-lg btn-ripple">Reserve a Table</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a href="/index.html" class="nav-logo"><span class="logo-mark">L<span class="logo-dot">·</span>C</span><span class="logo-name">Le Château Royale</span></a><p class="muted">A Michelin-star dining destination since 1995. Where every plate tells a story.</p></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="/about.html">About</a></li><li><a href="/menu.html">Menu</a></li><li><a href="/gallery.html">Gallery</a></li><li><a href="/reservation.html">Reservation</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Visit Us</h4><p class="muted">1 Royale Avenue<br/>Paris, 75008<br/>+33 1 42 00 00 00</p></div>
+        <div class="footer-col"><h4>Newsletter</h4><form class="newsletter" data-newsletter><input type="email" name="email" placeholder="Your email" required aria-label="Email for newsletter" /><button type="submit" class="btn btn-gold btn-ripple">Subscribe</button></form><p class="newsletter-msg" data-newsletter-msg></p><div class="social"><a href="#" aria-label="Instagram">Ig</a><a href="#" aria-label="Facebook">Fb</a><a href="#" aria-label="Twitter">Tw</a><a href="#" aria-label="YouTube">Yt</a></div></div>
+      </div>
+      <div class="footer-bottom container"><p class="muted">© <span data-year></span> Le Château Royale. All rights reserved.</p></div>
+    </footer>
+    <div id="popup" class="popup" aria-hidden="true"><div class="popup-card glass"><div class="popup-check">✓</div><h3>Reservation Confirmed</h3><p data-popup-msg>We look forward to welcoming you.</p><button class="btn btn-gold btn-ripple" data-popup-close>Close</button></div></div>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

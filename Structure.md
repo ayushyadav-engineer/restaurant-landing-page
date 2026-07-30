@@ -1,39 +1,58 @@
-Restaurant-Landing-Page/
+Restaurant Website/
 │
-├── assets/
-│   └── images/
-│       ├── about.jpg
-│       ├── background.jpg
-│       ├── chef1.jpg
-│       ├── chef2.jpg
-│       ├── chef3.jpg
-│       ├── customer1.jpg
-│       ├── customer2.jpg
-│       ├── customer3.jpg
-│       ├── favicon.png
-│       ├── gallery1.jpg
-│       ├── gallery2.jpg
-│       ├── gallery3.jpg
-│       ├── gallery4.jpg
-│       ├── gallery5.jpg
-│       ├── gallery6.jpg
-│       ├── hero.jpg
-│       ├── logo.png
-│       ├── menu1.jpg
-│       ├── menu2.jpg
-│       ├── menu3.jpg
-│       ├── menu4.jpg
-│       ├── menu5.jpg
-│       ├── menu6.jpg
-│       ├── menu7.jpg
-│       ├── menu8.jpg
-│       ├── menu9.jpg
-│       ├── menu10.jpg
-│       ├── menu11.jpg
-│       └── menu12.jpg
+├── css/
+│   │
+│   ├── style.css
+│   │     Main styling
+│   │
+│   ├── responsive.css
+│   │     Mobile & tablet responsive styles
+│   │
+│   └── animations.css
+│         All animations and transitions
+│
+│
+├── js/
+│   │
+│   ├── main.js
+│   │     Global JavaScript
+│   │
+│   ├── menu.js
+│   │     Menu page functionality
+│   │
+│   ├── gallery.js
+│   │     Gallery filtering and animations
+│   │
+│   ├── reservation.js
+│   │     Reservation form validation
+│   │
+│   └── data.js
+│         Static data used across pages
+│
 │
 ├── index.html
-├── style.css
-├── script.js
+│     Home Page
+│
+├── about.html
+│     About Restaurant
+│
+├── menu.html
+│     Restaurant Menu
+│
+├── gallery.html
+│     Restaurant Gallery
+│
+├── reservation.html
+│     Reservation Page
+│
+├── contact.html
+│     Contact Information
+│
 ├── README.md
+│     Project Documentation
+│
+├── Structure.md
+│     Folder Structure Documentation
+│
 └── .gitignore
+      Git Ignore Rules

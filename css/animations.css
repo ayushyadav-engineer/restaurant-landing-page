@@ -1,0 +1,76 @@
+/* ============================================================
+   Animations — reveal, fade, scale, zoom, float, shine, glow
+   ============================================================ */
+
+/* Reveal base (toggled by IntersectionObserver) */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transition-delay: var(--d, 0s);
+  will-change: opacity, transform;
+}
+.reveal.in-view { opacity: 1; transform: none; }
+
+/* Directional variants */
+.reveal.fade-left { transform: translateX(-60px); }
+.reveal.fade-right { transform: translateX(60px); }
+.reveal.scale { transform: scale(0.92); }
+.reveal.zoom { transform: scale(1.08); }
+.reveal.in-view.fade-left,
+.reveal.in-view.fade-right,
+.reveal.in-view.scale,
+.reveal.in-view.zoom { transform: none; }
+
+/* Floating decorative elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+.float { animation: float 4s ease-in-out infinite; }
+.float-slow { animation: float 6s ease-in-out infinite; }
+
+/* Hover shine sweep (for cards / buttons) */
+.shine { position: relative; overflow: hidden; }
+.shine::before {
+  content: ''; position: absolute; top: 0; left: -75%; width: 50%; height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.25), transparent);
+  transform: skewX(-20deg); transition: none;
+}
+.shine:hover::before { animation: shine 0.9s ease-out; }
+@keyframes shine { 100% { left: 125%; } }
+
+/* Button glow pulse */
+.btn-glow { animation: btnGlow 2.4s ease-in-out infinite; }
+@keyframes btnGlow {
+  0%, 100% { box-shadow: 0 8px 24px -8px rgba(212,175,55,0.5); }
+  50% { box-shadow: 0 8px 34px -4px rgba(212,175,55,0.8); }
+}
+
+/* Image zoom on hover (utility) */
+.img-zoom { overflow: hidden; }
+.img-zoom img { transition: transform 0.7s var(--ease); }
+.img-zoom:hover img { transform: scale(1.1); }
+
+/* Section reveal — subtle background slide */
+.section-reveal {
+  background-attachment: fixed;
+  animation: bgSlide 1.2s var(--ease) both;
+}
+@keyframes bgSlide { from { opacity: 0; } to { opacity: 1; } }
+
+/* Staggered list items */
+.stagger > * { opacity: 0; transform: translateY(20px); transition: opacity 0.5s var(--ease), transform 0.5s var(--ease); }
+.stagger.in-view > *:nth-child(1) { transition-delay: 0s; }
+.stagger.in-view > *:nth-child(2) { transition-delay: 0.08s; }
+.stagger.in-view > *:nth-child(3) { transition-delay: 0.16s; }
+.stagger.in-view > *:nth-child(4) { transition-delay: 0.24s; }
+.stagger.in-view > *:nth-child(5) { transition-delay: 0.32s; }
+.stagger.in-view > *:nth-child(6) { transition-delay: 0.40s; }
+.stagger.in-view > * { opacity: 1; transform: none; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .reveal { opacity: 1; transform: none; }
+}

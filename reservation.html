@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reserve your table at Le Château Royale — an unforgettable fine dining evening." />
+    <title>Reservation · Le Château Royale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body data-page="reservation">
+    <div id="page-loader" class="page-loader"><div class="loader-mark"><span class="loader-ring"></span><span class="loader-text">Le Château Royale</span></div></div>
+    <div id="scroll-progress" class="scroll-progress"></div>
+    <div id="mouse-glow" class="mouse-glow" aria-hidden="true"></div>
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+    <header id="navbar" class="navbar">
+      <nav class="nav container" aria-label="Primary">
+        <a href="/index.html" class="nav-logo" aria-label="Le Château Royale home"><span class="logo-mark">L<span class="logo-dot">·</span>C</span><span class="logo-name">Le Château Royale</span></a>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+        <ul id="nav-menu" class="nav-menu" data-nav>
+          <li><a href="/index.html" class="nav-link" data-page="home">Home</a></li>
+          <li><a href="/about.html" class="nav-link" data-page="about">About</a></li>
+          <li><a href="/menu.html" class="nav-link" data-page="menu">Menu</a></li>
+          <li><a href="/gallery.html" class="nav-link" data-page="gallery">Gallery</a></li>
+          <li><a href="/index.html#experience" class="nav-link" data-page="experience">Experience</a></li>
+          <li><a href="/reservation.html" class="nav-link" data-page="reservation">Reservation</a></li>
+          <li><a href="/contact.html" class="nav-link" data-page="contact">Contact</a></li>
+          <li class="nav-cta-item"><a href="/reservation.html" class="btn btn-gold btn-ripple">Reserve Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="page-hero-bg" style="background-image:url('https://images.pexels.com/photos/24433378/pexels-photo-24433378.jpeg?auto=compress&cs=tinysrgb&w=1400')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content container"><p>Your Table Awaits</p><h1>Reservation</h1><nav class="breadcrumb"><a href="/index.html">Home</a> <span>/</span> <span>Reservation</span></nav></div>
+      </section>
+
+      <section class="section">
+        <div class="container" style="max-width:820px">
+          <div class="section-head reveal fade-up"><p class="eyebrow">Book Your Evening</p><h2 class="section-title">Reserve a Table</h2><p class="section-sub">Complete the form below. We hold a limited number of tables each night to preserve the intimacy of the room.</p></div>
+
+          <form class="glass reveal fade-up" data-reservation-form style="padding:var(--s-5);margin-top:var(--s-4)">
+            <div class="form-grid">
+              <div class="form-field"><label for="r-name">Full Name</label><input id="r-name" name="name" type="text" placeholder="Your name" required /><span class="field-error"></span></div>
+              <div class="form-field"><label for="r-email">Email</label><input id="r-email" name="email" type="email" placeholder="you@email.com" required /><span class="field-error"></span></div>
+              <div class="form-field"><label for="r-phone">Phone</label><input id="r-phone" name="phone" type="tel" placeholder="+33 6 00 00 00 00" required /><span class="field-error"></span></div>
+              <div class="form-field"><label for="r-date">Date</label><input id="r-date" name="date" type="date" required /><span class="field-error"></span></div>
+              <div class="form-field"><label for="r-time">Time</label>
+                <select id="r-time" name="time" required>
+                  <option value="">Select a time</option>
+                  <option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option>
+                </select><span class="field-error"></span></div>
+              <div class="form-field"><label for="r-guests">Guests</label>
+                <select id="r-guests" name="guests" required>
+                  <option value="">Select guests</option>
+                  <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+                </select><span class="field-error"></span></div>
+              <div class="form-field full"><label for="r-request">Special Request</label><textarea id="r-request" name="request" placeholder="Dietary needs, celebration, seating preference..."></textarea><span class="field-error"></span></div>
+            </div>
+            <div style="text-align:center;margin-top:var(--s-4)">
+              <button type="submit" class="btn btn-gold btn-lg btn-ripple">Confirm Reservation</button>
+              <p class="form-note">Demo only — your reservation is saved in your browser, not sent anywhere.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a href="/index.html" class="nav-logo"><span class="logo-mark">L<span class="logo-dot">·</span>C</span><span class="logo-name">Le Château Royale</span></a><p class="muted">A Michelin-star dining destination since 1995. Where every plate tells a story.</p></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="/about.html">About</a></li><li><a href="/menu.html">Menu</a></li><li><a href="/gallery.html">Gallery</a></li><li><a href="/reservation.html">Reservation</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Visit Us</h4><p class="muted">1 Royale Avenue<br/>Paris, 75008<br/>+33 1 42 00 00 00</p></div>
+        <div class="footer-col"><h4>Newsletter</h4><form class="newsletter" data-newsletter><input type="email" name="email" placeholder="Your email" required aria-label="Email for newsletter" /><button type="submit" class="btn btn-gold btn-ripple">Subscribe</button></form><p class="newsletter-msg" data-newsletter-msg></p><div class="social"><a href="#" aria-label="Instagram">Ig</a><a href="#" aria-label="Facebook">Fb</a><a href="#" aria-label="Twitter">Tw</a><a href="#" aria-label="YouTube">Yt</a></div></div>
+      </div>
+      <div class="footer-bottom container"><p class="muted">© <span data-year></span> Le Château Royale. All rights reserved.</p></div>
+    </footer>
+    <div id="popup" class="popup" aria-hidden="true"><div class="popup-card glass"><div class="popup-check">✓</div><h3>Reservation Confirmed</h3><p data-popup-msg>We look forward to welcoming you.</p><button class="btn btn-gold btn-ripple" data-popup-close>Close</button></div></div>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/reservation.js"></script>
+  </body>
+</html>
