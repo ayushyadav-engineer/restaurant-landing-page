@@ -147,7 +147,7 @@ function initSlider() {
   const prev = $('[data-slider-prev]', slider)
   const next = $('[data-slider-next]', slider)
   const dotsWrap = $('[data-slider-dots]', slider)
-  import('/js/data.js').then(({ reviews }) => {
+  import('./data.js').then(({ reviews }) => {
     const items = reviews
     track.innerHTML = items.map(r => `
       <div class="review-card glass">
