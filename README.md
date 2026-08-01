@@ -1,4 +1,4 @@
-# 🍽️ Elite Dining - Luxury Restaurant Website
+# 🍽️ Sanwariya - Luxury Restaurant Website
 
 A premium luxury restaurant website built using **HTML5, CSS3, and JavaScript**. This project is designed as a college frontend project with an elegant UI and smooth user experience.
 
@@ -122,7 +122,7 @@ Restaurant Website/
 1. Download or Clone the Repository
 
 ```
-git clone https://github.com/yourusername/luxury-restaurant.git
+git clone https://github.com/ayushyadav-engineer/Restaurant-Landing-Page
 ```
 
 2. Open the project folder.
