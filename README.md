@@ -1,4 +1,4 @@
-# 🍽️ Sanwariya - Luxury Restaurant Website
+# 🍽️ Savoria - Luxury Restaurant Website
 
 A premium luxury restaurant website built using **HTML5, CSS3, and JavaScript**. This project is designed as a college frontend project with an elegant UI and smooth user experience.
 

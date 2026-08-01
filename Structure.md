@@ -1,4 +1,4 @@
-Restaurant Website/
+Restaurant Landing Page
 │
 ├── css/
 │   │
