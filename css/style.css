@@ -38,6 +38,28 @@
   --shadow-gold: 0 18px 50px -12px rgba(212, 175, 55, 0.35);
 }
 
+.logo-img{
+    height:60px;
+    width:auto;
+    display:block;
+}
+
+.footer-logo-img{
+    height:60px;
+    width:auto;
+    display:block;
+}
+
+.social a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    font-size:18px;
+}
+
 /* Reset */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }

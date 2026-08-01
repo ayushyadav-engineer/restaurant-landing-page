@@ -19,10 +19,10 @@ export const dishes = [
 ]
 
 export const reviews = [
-  { name: 'Isabelle Moreau', role: 'Food Critic, Le Monde', rating: 5, text: 'An evening at Le Château Royale is less a meal and more a symphony — every course arrived as a revelation.', img: 'https://images.pexels.com/photos/18890524/pexels-photo-18890524.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { name: 'James Whitfield', role: 'Regular Guest', rating: 5, text: 'We have celebrated every anniversary here for a decade. The service anticipates you before you speak.', img: 'https://images.pexels.com/photos/3228887/pexels-photo-3228887.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { name: 'Sophia Laurent', role: 'Travel Writer', rating: 5, text: 'The most memorable dining experience of my life. The chef\'s tasting menu is pure poetry on a plate.', img: 'https://images.pexels.com/photos/28756957/pexels-photo-28756957.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { name: 'Marcus Chen', role: 'Sommelier', rating: 5, text: 'A cellar that rivals any in Europe, paired with a kitchen that honours every bottle. Flawless.', img: 'https://images.pexels.com/photos/13010849/pexels-photo-13010849.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { name: 'Isabelle Yadav', role: 'Food Critic, Faridabad', rating: 5, text: 'An evening at Savoria is less a meal and more a symphony — every course arrived as a revelation.', img: 'https://images.pexels.com/photos/18890524/pexels-photo-18890524.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { name: 'James Sharma', role: 'Regular Guest', rating: 5, text: 'We have celebrated every anniversary here for a decade. The service anticipates you before you speak.', img: 'https://images.pexels.com/photos/3228887/pexels-photo-3228887.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { name: 'Sophia Aggarwal', role: 'Travel Writer', rating: 5, text: 'The most memorable dining experience of my life. The chef\'s tasting menu is pure poetry on a plate.', img: 'https://images.pexels.com/photos/28756957/pexels-photo-28756957.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { name: 'Marcus Rajput', role: 'Sommelier', rating: 5, text: 'A cellar that rivals any in Europe, paired with a kitchen that honours every bottle. Flawless.', img: 'https://images.pexels.com/photos/13010849/pexels-photo-13010849.jpeg?auto=compress&cs=tinysrgb&w=200' },
 ]
 
 export const galleryImages = [
