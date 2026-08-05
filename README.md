@@ -1,17 +1,11 @@
 <div align="center">
 
 <!-- LOGO PLACEHOLDER -->
-<img src="./assets/logo.png" alt="Savoria Logo" width="120" />
+<img src="logo.png" alt="Savoria Logo" width="120" />
 
 # 🍷 Savoria — Premium Luxury Restaurant Website
 
 ### *Where Fine Dining Meets Modern Web Design*
-
-<p>
-  <img src="https://img.shields.io/github/stars/ayushyadav/savoria?style=for-the-badge&color=gold" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/ayushyadav/savoria?style=for-the-badge&color=black" alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/license/ayushyadav/savoria?style=for-the-badge&color=blueviolet" alt="License" />
-</p>
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -28,7 +22,6 @@
 
 **Savoria** is a fully responsive, animation-rich, multi-page luxury restaurant website built with pure **HTML5, CSS3, and Vanilla JavaScript** — featuring a refined **Black & Gold** design language, glassmorphism UI components, and buttery-smooth micro-interactions.
 
-[🌐 Live Demo](#-live-demo) • [📸 Screenshots](#-screenshots) • [✨ Features](#-features) • [🚀 Deployment](#-deployment-guide) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -38,14 +31,14 @@
 
 <div align="center">
 
-### 👉 [**View Live Website**](https://savoria-restaurant.netlify.app) 👈
+### 👉 [**View Live Website**](https://restaurant-landing-page-prh9.onrender.com) 👈
 
 </div>
 
 | Environment | Link | Status |
 |---|---|---|
-| 🟢 Production | [savoria-restaurant.netlify.app](https://savoria-restaurant.netlify.app) | ![Status](https://img.shields.io/website?url=https%3A%2F%2Fsavoria-restaurant.netlify.app) |
-| 🔵 GitHub Pages | [ayushyadav.github.io/savoria](https://ayushyadav.github.io/savoria) | Active |
+| 🟢 Production | [https://restaurant-landing-page-prh9.onrender.com](https://savoria-restaurant.netlify.app) | Active |
+| 🔵 GitHub Pages | [https://ayushyadav-engineer.github.io/Restaurant-Landing-Page/](https://ayushyadav.github.io/savoria) | Active |
 
 ---
 
@@ -55,11 +48,11 @@
 
 | Home Page | Menu Page |
 |:---:|:---:|
-| <img src="./assets/screenshots/home.png" width="400"/> | <img src="./assets/screenshots/menu.png" width="400"/> |
+| <img src="screenshots/Home.jpg" width="400"/> | <img src="screenshots/Menu.jpg" width="400"/> |
 
 | Gallery Page | Reservation Page |
 |:---:|:---:|
-| <img src="./assets/screenshots/gallery.png" width="400"/> | <img src="./assets/screenshots/reservation.png" width="400"/> |
+| <img src="screenshots/Gallery.jpg" width="400"/> | <img src="screenshots/Reservation.jpg" width="400"/> |
 
 </div>
 
@@ -67,9 +60,9 @@
 <summary><b>📱 View Mobile Screenshots</b></summary>
 
 <div align="center">
-<img src="./assets/screenshots/mobile-home.png" width="220"/>
-<img src="./assets/screenshots/mobile-menu.png" width="220"/>
-<img src="./assets/screenshots/mobile-gallery.png" width="220"/>
+<img src="screenshots/mobile-home.jpeg" width="220"/>
+<img src="screenshots/mobile-menu.jpeg" width="220"/>
+<img src="screenshots/mobile-gallery.jpeg" width="220"/>
 </div>
 
 </details>
@@ -126,38 +119,27 @@
 ## 📁 Folder Structure
 
 ```bash
-savoria/
-├── assets/
-│   ├── images/              # Hero, menu, gallery images
-│   ├── icons/                # SVG / icon assets
-│   └── screenshots/          # README screenshots
+Restaurant Landing Page
+├── screenshots/          
 ├── css/
-│   ├── style.css             # Base styles & variables
-│   ├── animations.css        # Keyframes & scroll animations
-│   └── responsive.css        # Media queries
+│   ├── style.css             
+│   ├── animations.css        
+│   └── responsive.css        
 ├── js/
-│   ├── main.js                # App entry point
-│   ├── loader.js              # Page loader logic
-│   ├── navigation.js          # Nav + mobile menu + active link
-│   ├── scroll.js               # Scroll progress + back-to-top
-│   ├── counters.js            # Animated counters
-│   ├── gallery.js             # Gallery filter + lightbox
-│   ├── menu.js                 # Menu category filtering
-│   ├── forms.js                # Reservation & contact validation
-│   └── storage.js             # LocalStorage utilities
-├── index.html                  # Home
-├── about.html                  # About
-├── menu.html                   # Menu
-├── gallery.html                # Gallery
-├── reservation.html            # Reservation
-├── contact.html                 # Contact
-├── .github/                     # Issue/PR templates & workflows
+│   ├── data.js                
+│   ├── gallery.js              
+│   ├── main.js          
+│   ├── menu.js               
+│   └── reservation.js        
+├── index.html                  
+├── about.html                  
+├── menu.html                   
+├── gallery.html                 
+├── reservation.html             
+├── contact.html                  
+├── .gitignore                      
 ├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-├── CHANGELOG.md
-├── SUPPORT.md
+├── logo.png
 └── README.md
 ```
 
@@ -167,10 +149,10 @@ savoria/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ayushyadav/savoria.git
+git clone https://github.com/ayushyadav-engineer/Restaurant-Landing-Page
 
 # 2. Navigate into the project directory
-cd savoria
+cd Restaurant Landing Page
 
 # 3. Open with a live server (recommended)
 # Using VS Code Live Server extension, or:
@@ -297,10 +279,10 @@ Built mobile-first with fluid breakpoints:
 
 | Color | Hex | Preview |
 |---|---|---|
-| Onyx Black | `#0D0D0D` | ![#0D0D0D](https://via.placeholder.com/15/0D0D0D/0D0D0D.png) |
-| Royal Gold | `#D4AF37` | ![#D4AF37](https://via.placeholder.com/15/D4AF37/D4AF37.png) |
-| Champagne | `#F5F5F0` | ![#F5F5F0](https://via.placeholder.com/15/F5F5F0/F5F5F0.png) |
-| Charcoal | `#1A1A1A` | ![#1A1A1A](https://via.placeholder.com/15/1A1A1A/1A1A1A.png) |
+| Onyx Black | `#0D0D0D` | ![#0D0D0D](screenshots/#0D0D0D.jpg) |
+| Royal Gold | `#D4AF37` | ![#D4AF37](screenshots/#D4AF37.JPG) |
+| Champagne | `#F5F5F0` | ![#F5F5F0](screenshots/#F5F5F0.JPG) |
+| Charcoal | `#1A1A1A` | ![#1A1A1A](screenshots/#1A1A1A.jpg) |
 
 </div>
 
@@ -344,67 +326,6 @@ Built mobile-first with fluid breakpoints:
 
 ---
 
-## 🚀 Deployment Guide
-
-<details>
-<summary><b>📘 GitHub Pages</b></summary>
-
-```bash
-# From repository settings:
-Settings → Pages → Source → main branch → / (root) → Save
-```
-
-Your site will be live at `https://<username>.github.io/savoria/`
-
-</details>
-
-<details>
-<summary><b>🌐 Netlify</b></summary>
-
-1. Push your project to GitHub
-2. Go to [Netlify](https://app.netlify.com) → **Add New Site → Import from Git**
-3. Select the `savoria` repository
-4. Build command: *(leave blank)* — Publish directory: `/`
-5. Click **Deploy Site**
-
-</details>
-
-<details>
-<summary><b>▲ Vercel</b></summary>
-
-```bash
-npm i -g vercel
-vercel login
-vercel
-```
-
-Follow the CLI prompts and select the project root as the deployment directory.
-
-</details>
-
-<details>
-<summary><b>🎨 Render</b></summary>
-
-1. Go to [Render](https://render.com) → **New → Static Site**
-2. Connect the `savoria` GitHub repository
-3. Build command: *(leave blank)* — Publish directory: `/`
-4. Click **Create Static Site**
-
-</details>
-
----
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community amazing! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.
-
-```bash
-1. Fork the repository
-2. Create your feature branch   →  git checkout -b feature/AmazingFeature
-3. Commit your changes          →  git commit -m 'feat: add AmazingFeature'
-4. Push to the branch           →  git push origin feature/AmazingFeature
-5. Open a Pull Request
-```
 
 ## 🧹 Code Style
 
@@ -438,24 +359,3 @@ Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more infor
 ## 🌟 Connect With Me
 
 Feel free to reach out for collaborations, feedback, or just to say hi! 👋
-
-## 🙏 Acknowledgements
-
-- [Font Awesome](https://fontawesome.com) — Icons
-- [Google Fonts](https://fonts.google.com) — Typography
-- [Unsplash](https://unsplash.com) — Placeholder photography
-- The open-source community ❤️
-
----
-
-<div align="center">
-
-## ⭐ Show Your Support
-
-If you found this project helpful or inspiring, please consider giving it a **star** — it helps the project reach more developers!
-
-**[⭐ Star this repository](https://github.com/ayushyadav/savoria)**
-
-<sub>Built with 🖤 and 🥂 by Ayush Yadav</sub>
-
-</div>
