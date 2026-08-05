@@ -279,10 +279,10 @@ Built mobile-first with fluid breakpoints:
 
 | Color | Hex | Preview |
 |---|---|---|
-| Onyx Black | `#0D0D0D` | ![#0D0D0D](screenshots/#0D0D0D.jpg) |
-| Royal Gold | `#D4AF37` | ![#D4AF37](screenshots/#D4AF37.JPG) |
-| Champagne | `#F5F5F0` | ![#F5F5F0](screenshots/#F5F5F0.JPG) |
-| Charcoal | `#1A1A1A` | ![#1A1A1A](screenshots/#1A1A1A.jpg) |
+| Onyx Black | `#0D0D0D` | ![#0D0D0D](screenshots/0D0D0D.jpg) |
+| Royal Gold | `#D4AF37` | ![#D4AF37](screenshots/D4AF37.JPG) |
+| Champagne | `#F5F5F0` | ![#F5F5F0](screenshots/F5F5F0.JPG) |
+| Charcoal | `#1A1A1A` | ![#1A1A1A](screenshots/1A1A1A.jpg) |
 
 </div>
 
